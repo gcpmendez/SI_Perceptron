@@ -19,14 +19,17 @@ Presentación realizada con **Víctor Hernández Pérez** (alu0100697032).
 Podemos distinguir las siguientes partes:
 - **Xi** - Valores de entradas
 - **Wj** - pesos del perceptrón
-- **E** - Factor de aprendizaje (controla el proceso de aprendizaje)
+- **E** - Factor de aprendizaje (controla el proceso de aprendizaje). 0 < E < 1
 - **θ** - Umbral
 - **y** - salida esperada
 - **T** - Valor esperado para una entrada
 
+> **NOTA:** La función de activación, y es la función que utiliza la suma de estímulos para determinar la actividad de salida de la neurona.
+
 Formula para el ajuste de pesos:
+
 ```java
-W = W + (E * ( T - y)) * X
+W = W + (E * (T - y)) * X
 ```
 
 
@@ -34,6 +37,7 @@ W = W + (E * ( T - y)) * X
 
  ![Pantalla inicial](https://github.com/gcpmendez/SI_Perceptron/blob/master/images/OR.jpg?raw=true)  
 
+En nuestro ejemplo utilizamos un perceptrón simple que **resuelve problemas linealmente separables**
 
 ## Ayúdame a mejorar esta presentación
 
