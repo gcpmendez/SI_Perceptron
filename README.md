@@ -26,7 +26,7 @@ Podemos distinguir las siguientes partes:
 
 Formula para el ajuste de pesos:
 ```java
-W = W + 2E * T * X
+W = W + (E * ( T - y)) * X
 ```
 
 

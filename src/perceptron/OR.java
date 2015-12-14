@@ -68,8 +68,8 @@ public class OR {
             // Si no, reajuste de pesos.
             } else {
                 System.out.println("Valor esperado difiere de la salida. Reajustamos pesos... \n");
-                w1 = w1 + 2 * E * tablaDeVerdad[i][2] * tablaDeVerdad[i][0];
-                w2 = w2 + 2 * E * tablaDeVerdad[i][2] * tablaDeVerdad[i][1];
+                w1 = w1 +  (E * (tablaDeVerdad[i][2] - y ))* tablaDeVerdad[i][0];
+                w2 = w2 +  (E * (tablaDeVerdad[i][2] - y ))* tablaDeVerdad[i][0];
                 umbral = umbral + 2 * E * tablaDeVerdad[i][2] * (-1);
 
                 System.out.println("----- Reajuste de pesos (" + iteraciones + ") -----");
