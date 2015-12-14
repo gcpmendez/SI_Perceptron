@@ -13,7 +13,7 @@ Presentación realizada con **Víctor Hernández Pérez** (alu0100697032).
  Podemos considerar que una red neuronal esta formada por un número de elementos simples que son las **neuronas** y que cada una de estas neuronas, realiza un **operación muy sencilla** (resuelve una sencilla función matemática en función del valor de sus entradas) cuyo resultado será trasmitida a la siguiente neurona como entrada de la misma (de ahí las conexiones).  
 
  En una **neurona artifical** es descrita como sigue:
-> ![Pantalla inicial](https://github.com/gcpmendez/SI_Perceptron/blob/master/images/perceptron.png?raw=true)
+ ![Pantalla inicial](https://github.com/gcpmendez/SI_Perceptron/blob/master/images/perceptron.png?raw=true)
 
 
 Podemos distinguir las siguientes partes:
@@ -32,7 +32,7 @@ W = W + 2E * T * X
 
 #### Ejemplo: puerta OR con redes neuronales
 
-> ![Pantalla inicial](https://github.com/gcpmendez/SI_Perceptron/blob/master/images/OR.jpg?raw=true)  
+ ![Pantalla inicial](https://github.com/gcpmendez/SI_Perceptron/blob/master/images/OR.jpg?raw=true)  
 
 
 ## Ayúdame a mejorar esta presentación
